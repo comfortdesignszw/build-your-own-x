@@ -83,12 +83,12 @@ comfort-designs-website/
    ```
    
    Edit `.env` file with your configuration:
-   ```env
-   PORT=5000
-   EMAIL_USER=your-email@gmail.com
-   EMAIL_PASS=your-app-password
-   COMPANY_EMAIL=info@comfortdesigns.com
-   ```
+       ```env
+    PORT=5000
+    EMAIL_USER=comfort.designszw@gmail.com
+    EMAIL_PASS=your-app-password
+    COMPANY_EMAIL=comfort.designszw@gmail.com
+    ```
 
 5. **Start the development servers**
    
@@ -256,8 +256,10 @@ npm run build
 ## 📞 Support
 
 For support and customization requests:
-- Email: info@comfortdesigns.com
-- Phone: +1 (555) 123-4567
+- Email: comfort.designszw@gmail.com
+- Phone: +26377 282 4132
+- Address: 7 Elsley Road, Queens Park West, Bulawayo, Zimbabwe
+- Business Hours: Monday - Saturday: 8AM - 6PM (Closed Sundays)
 
 ## 📄 License
 

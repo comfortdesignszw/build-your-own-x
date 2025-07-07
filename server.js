@@ -36,7 +36,7 @@ app.post('/api/contact', async (req, res) => {
     // Email options
     const mailOptions = {
       from: email,
-      to: process.env.COMPANY_EMAIL || 'info@comfortdesigns.com',
+      to: process.env.COMPANY_EMAIL || 'comfort.designszw@gmail.com',
       subject: `New Contact Form Submission - ${service}`,
       html: `
         <h2>New Contact Form Submission</h2>

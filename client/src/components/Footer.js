@@ -9,7 +9,8 @@ import {
   FiMail, 
   FiPhone, 
   FiMapPin,
-  FiArrowUp
+  FiArrowUp,
+  FiClock
 } from 'react-icons/fi';
 import './Footer.css';
 
@@ -45,6 +46,8 @@ const Footer = () => {
     { icon: FiInstagram, url: '#', label: 'Instagram' },
     { icon: FiLinkedin, url: '#', label: 'LinkedIn' }
   ];
+
+
 
   return (
     <footer className="footer">
@@ -114,18 +117,22 @@ const Footer = () => {
             <div className="footer-section">
               <h4 className="footer-title">Contact Info</h4>
               <div className="contact-info">
-                <div className="contact-item">
-                  <FiMapPin className="contact-icon" />
-                  <span>123 Business Street, City, State 12345</span>
-                </div>
-                <div className="contact-item">
-                  <FiPhone className="contact-icon" />
-                  <span>+1 (555) 123-4567</span>
-                </div>
-                <div className="contact-item">
-                  <FiMail className="contact-icon" />
-                  <span>info@comfortdesigns.com</span>
-                </div>
+                                 <div className="contact-item">
+                   <FiMapPin className="contact-icon" />
+                   <span>7 Elsley Road, Queens Park West, Bulawayo, Zimbabwe</span>
+                 </div>
+                 <div className="contact-item">
+                   <FiPhone className="contact-icon" />
+                   <span>+26377 282 4132</span>
+                 </div>
+                 <div className="contact-item">
+                   <FiMail className="contact-icon" />
+                   <span>comfort.designszw@gmail.com</span>
+                 </div>
+                 <div className="contact-item">
+                   <FiClock className="contact-icon" />
+                   <span>Mon - Sat: 8AM - 6PM | Closed Sundays</span>
+                 </div>
               </div>
               
               {/* Newsletter */}

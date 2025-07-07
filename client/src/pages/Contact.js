@@ -55,25 +55,25 @@ const Contact = () => {
     {
       icon: FiMapPin,
       title: 'Our Location',
-      content: '123 Business Street, City, State 12345',
+      content: '7 Elsley Road, Queens Park West, Bulawayo, Zimbabwe',
       color: 'from-blue-500 to-purple-600'
     },
     {
       icon: FiPhone,
       title: 'Phone Number',
-      content: '+1 (555) 123-4567',
+      content: '+26377 282 4132',
       color: 'from-green-500 to-teal-600'
     },
     {
       icon: FiMail,
       title: 'Email Address',
-      content: 'info@comfortdesigns.com',
+      content: 'comfort.designszw@gmail.com',
       color: 'from-pink-500 to-red-500'
     },
     {
       icon: FiClock,
       title: 'Business Hours',
-      content: 'Mon - Fri: 9AM - 6PM\nSat: 10AM - 4PM',
+      content: 'Mon - Sat: 8AM - 6PM\nClosed Sundays',
       color: 'from-orange-500 to-yellow-500'
     }
   ];
